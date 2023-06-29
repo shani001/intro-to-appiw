@@ -21,7 +21,7 @@ def hello_world1():
 
 @app.route('/hello')
 def hello_world():
-    return 'Hello World'
+    return "Hello World"
  
 # main driver function
 #if __name__ == '__main__':
