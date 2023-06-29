@@ -12,11 +12,11 @@ app = Flask(__name__)
 # The route() function of the Flask class is a decorator,
 # which tells the application which URL should call
 # the associated function.
-@app.route('/home')
+@app.route('/')
 def hello_world1():
-    g=dataStudent.getAll()
-    p=json.dumps(g)
-    return p
+    #g=dataStudent.getAll()
+    #p=json.dumps(g)
+    return "hello"
 
     
 
